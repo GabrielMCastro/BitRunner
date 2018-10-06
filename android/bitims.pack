@@ -1,0 +1,277 @@
+
+assets1.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+Menu9
+  rotate: false
+  xy: 2, 2
+  size: 1000, 600
+  orig: 1000, 600
+  offset: 0, 0
+  index: -1
+Logo
+  rotate: false
+  xy: 2, 604
+  size: 600, 300
+  orig: 600, 300
+  offset: 0, 0
+  index: -1
+badlogic
+  rotate: false
+  xy: 604, 604
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+MattJump
+  rotate: false
+  xy: 862, 604
+  size: 100, 200
+  orig: 100, 200
+  offset: 0, 0
+  index: -1
+JumpPlank
+  rotate: false
+  xy: 604, 862
+  size: 100, 150
+  orig: 100, 150
+  offset: 0, 0
+  index: -1
+DuckPlank
+  rotate: false
+  xy: 706, 862
+  size: 100, 130
+  orig: 100, 130
+  offset: 0, 0
+  index: -1
+Mattrollin4
+  rotate: false
+  xy: 2, 906
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Mattrollin3
+  rotate: false
+  xy: 104, 906
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Mattrollin2
+  rotate: false
+  xy: 206, 906
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Mattrollin1
+  rotate: false
+  xy: 308, 906
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Mattrollin5
+  rotate: false
+  xy: 308, 906
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+OrPlank
+  rotate: false
+  xy: 410, 906
+  size: 100, 41
+  orig: 100, 41
+  offset: 0, 0
+  index: -1
+
+assets2.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+Menu8
+  rotate: false
+  xy: 2, 2
+  size: 1000, 600
+  orig: 1000, 600
+  offset: 0, 0
+  index: -1
+Box
+  rotate: false
+  xy: 2, 604
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+MattFall
+  rotate: false
+  xy: 2, 806
+  size: 100, 200
+  orig: 100, 200
+  offset: 0, 0
+  index: -1
+Matt5
+  rotate: false
+  xy: 204, 604
+  size: 100, 200
+  orig: 100, 200
+  offset: 0, 0
+  index: -1
+Matt4
+  rotate: false
+  xy: 204, 806
+  size: 100, 200
+  orig: 100, 200
+  offset: 0, 0
+  index: -1
+Matt3
+  rotate: false
+  xy: 306, 604
+  size: 100, 200
+  orig: 100, 200
+  offset: 0, 0
+  index: -1
+Matt2
+  rotate: false
+  xy: 306, 806
+  size: 100, 200
+  orig: 100, 200
+  offset: 0, 0
+  index: -1
+Matt1
+  rotate: false
+  xy: 408, 604
+  size: 100, 200
+  orig: 100, 200
+  offset: 0, 0
+  index: -1
+Matt
+  rotate: false
+  xy: 408, 806
+  size: 100, 200
+  orig: 100, 200
+  offset: 0, 0
+  index: -1
+
+assets3.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+Menu7
+  rotate: false
+  xy: 2, 2
+  size: 1000, 600
+  orig: 1000, 600
+  offset: 0, 0
+  index: -1
+
+assets4.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+Menu6
+  rotate: false
+  xy: 2, 2
+  size: 1000, 600
+  orig: 1000, 600
+  offset: 0, 0
+  index: -1
+
+assets5.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+Menu5
+  rotate: false
+  xy: 2, 2
+  size: 1000, 600
+  orig: 1000, 600
+  offset: 0, 0
+  index: -1
+
+assets6.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+Menu4
+  rotate: false
+  xy: 2, 2
+  size: 1000, 600
+  orig: 1000, 600
+  offset: 0, 0
+  index: -1
+
+assets7.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+Menu3
+  rotate: false
+  xy: 2, 2
+  size: 1000, 600
+  orig: 1000, 600
+  offset: 0, 0
+  index: -1
+
+assets8.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+Menu2
+  rotate: false
+  xy: 2, 2
+  size: 1000, 600
+  orig: 1000, 600
+  offset: 0, 0
+  index: -1
+
+assets9.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+Menu12
+  rotate: false
+  xy: 2, 2
+  size: 1000, 600
+  orig: 1000, 600
+  offset: 0, 0
+  index: -1
+
+assets10.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+Menu11
+  rotate: false
+  xy: 2, 2
+  size: 1000, 600
+  orig: 1000, 600
+  offset: 0, 0
+  index: -1
+
+assets11.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+Menu10
+  rotate: false
+  xy: 2, 2
+  size: 1000, 600
+  orig: 1000, 600
+  offset: 0, 0
+  index: -1
+
+assets12.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+Menu1
+  rotate: false
+  xy: 2, 2
+  size: 1000, 600
+  orig: 1000, 600
+  offset: 0, 0
+  index: -1
