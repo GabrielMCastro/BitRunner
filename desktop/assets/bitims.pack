@@ -1,0 +1,241 @@
+
+Packed1.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+MusicOnButton
+  rotate: false
+  xy: 2, 2
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+MusicOffButton
+  rotate: false
+  xy: 404, 2
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+HomeButtonHighlighted
+  rotate: false
+  xy: 2, 404
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+HomeButton
+  rotate: false
+  xy: 404, 404
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+DuckPlank
+  rotate: false
+  xy: 806, 2
+  size: 200, 300
+  orig: 200, 300
+  offset: 0, 0
+  index: -1
+PlayButtonHighlighted
+  rotate: false
+  xy: 2, 806
+  size: 300, 150
+  orig: 300, 150
+  offset: 0, 0
+  index: -1
+PlayButtonClicked
+  rotate: false
+  xy: 404, 806
+  size: 300, 150
+  orig: 300, 150
+  offset: 0, 0
+  index: -1
+PlayButton
+  rotate: false
+  xy: 706, 806
+  size: 300, 150
+  orig: 300, 150
+  offset: 0, 0
+  index: -1
+ResumeButtonHighlight
+  rotate: false
+  xy: 806, 404
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+Explosion4
+  rotate: false
+  xy: 806, 606
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+
+Packed2.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+HelpButton
+  rotate: false
+  xy: 2, 2
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+Dropbrick
+  rotate: false
+  xy: 404, 2
+  size: 130, 240
+  orig: 130, 240
+  offset: 0, 0
+  index: -1
+JumpPlank
+  rotate: false
+  xy: 536, 2
+  size: 232, 232
+  orig: 232, 232
+  offset: 0, 0
+  index: -1
+ResumeButton
+  rotate: false
+  xy: 770, 2
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+PauseButtonHighlight
+  rotate: false
+  xy: 2, 404
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+PauseButton
+  rotate: false
+  xy: 2, 606
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+MattJump
+  rotate: false
+  xy: 2, 808
+  size: 100, 200
+  orig: 100, 200
+  offset: 0, 0
+  index: -1
+MattFall
+  rotate: false
+  xy: 204, 404
+  size: 100, 200
+  orig: 100, 200
+  offset: 0, 0
+  index: -1
+Matt5
+  rotate: false
+  xy: 204, 606
+  size: 100, 200
+  orig: 100, 200
+  offset: 0, 0
+  index: -1
+Matt4
+  rotate: false
+  xy: 204, 808
+  size: 100, 200
+  orig: 100, 200
+  offset: 0, 0
+  index: -1
+Matt3
+  rotate: false
+  xy: 306, 404
+  size: 100, 200
+  orig: 100, 200
+  offset: 0, 0
+  index: -1
+Matt2
+  rotate: false
+  xy: 306, 606
+  size: 100, 200
+  orig: 100, 200
+  offset: 0, 0
+  index: -1
+Matt1
+  rotate: false
+  xy: 306, 808
+  size: 100, 200
+  orig: 100, 200
+  offset: 0, 0
+  index: -1
+Matt
+  rotate: false
+  xy: 408, 404
+  size: 100, 200
+  orig: 100, 200
+  offset: 0, 0
+  index: -1
+Explosion3
+  rotate: false
+  xy: 770, 204
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+Explosion2
+  rotate: false
+  xy: 510, 404
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+Explosion1
+  rotate: false
+  xy: 692, 404
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+OrPlank
+  rotate: false
+  xy: 536, 236
+  size: 200, 120
+  orig: 200, 120
+  offset: 0, 0
+  index: -1
+Mattrollin4
+  rotate: false
+  xy: 404, 244
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Mattrollin3
+  rotate: false
+  xy: 408, 606
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Mattrollin2
+  rotate: false
+  xy: 408, 708
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Mattrollin1
+  rotate: false
+  xy: 408, 810
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+FireBall
+  rotate: false
+  xy: 510, 586
+  size: 300, 80
+  orig: 300, 80
+  offset: 0, 0
+  index: -1
