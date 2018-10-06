@@ -1,0 +1,171 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
+{\fonttbl\f0\fnil\fcharset0 Monaco;}
+{\colortbl;\red255\green255\blue255;\red127\green0\blue85;\red0\green0\blue192;\red63\green127\blue95;
+\red127\green159\blue191;}
+\margl1440\margr1440\vieww25400\viewh13380\viewkind0
+\deftab720
+\pard\pardeftab720
+
+\f0\fs22 \cf2 float\cf0  \cf3 procpart\cf0  = 1; \cf4 // Tells the current obstacle spawning operation which part it is on\cf0 \
+\cf2 int\cf0  \cf3 proc\cf0  = 0; \cf4 // The current obstacle spawning process\cf0 \
+\cf4 \
+\
+// Adds a Or and then a random\cf0 \
+	\cf2 private\cf0  \cf2 void\cf0  \ul executeProc7()\ulnone  \{\
+		\cf2 if\cf0 (\cf3 procpart\cf0  == 1)\{\
+		l:	\cf2 for\cf0 (OrPlank ors : getOrPlanks())\{\
+				\cf2 if\cf0 (ors.\cf3 onscreen\cf0  == \cf2 false\cf0 )\{\
+					ors.setPosition((\cf2 new\cf0  Vector2(\cf3 WIDTH\cf0 ,.55f)));\
+					ors.\cf3 onscreen\cf0  = \cf2 true\cf0 ;\
+					\cf2 break\cf0  l;\
+				\}\
+			\}\
+			\
+			\cf3 procpart\cf0  = 2;\
+		\}\cf2 else\cf0  \cf2 if\cf0 (\cf3 procpart\cf0  == 2)\{\
+			addRandomObstacle(4,3);\
+			\cf3 procpart\cf0  = 1;\
+		\}\
+	\}\
+\
+\cf4 // Adds a jump and then a random\cf0 \
+	\cf2 private\cf0  \cf2 void\cf0  executeProc6() \{\
+		\cf4 // \cf5 TODO\cf4  Auto-generated method stub\cf0 \
+		\
+	\}\
+\
+	\
+	\cf4 // Adds two missiles, one high one low\cf0 \
+	\cf2 private\cf0  \cf2 void\cf0  executeProc5() \{\
+		\cf4 // \cf5 TODO\cf4  Auto-generated method stub\cf0 \
+		\
+	\}\
+\
+	\
+	\cf4 // Adds a dropper and then a high missile\cf0 \
+	\cf2 private\cf0  \cf2 void\cf0  executeProc4() \{\
+		\cf4 // \cf5 TODO\cf4  Auto-generated method stub\cf0 \
+		\
+	\}\
+\
+	\
+	\cf4 // Adds a dropper brick and then a random one\cf0 \
+	\cf2 private\cf0  \cf2 void\cf0  executeProc3() \{\
+		\cf4 // \cf5 TODO\cf4  Auto-generated method stub\cf0 \
+		\
+	\}\
+\
+	\
+	\cf4 // Adds a jump brick and then a missile\cf0 \
+	\cf2 private\cf0  \cf2 void\cf0  executeProc2() \{\
+		\cf4 // \cf5 TODO\cf4  Auto-generated method stub\cf0 \
+		\
+	\}\
+\
+	\
+	\cf4 // Adds a random obstacle and then another random obstacle excluding the previous type\cf0 \
+	\cf2 private\cf0  \cf2 void\cf0  executeProc1() \{\
+		\cf4 // \cf5 TODO\cf4  Auto-generated method stub\cf0 \
+		\
+	\}\
+\
+\
+\
+\
+\
+\
+// Ads\
+\
+\pard\pardeftab720
+\cf2 switch\cf0 (1)\{\
+				\
+					\cf2 case\cf0  1:	\cf3 layout\cf0 .addView(\cf3 adview\cf0 , \cf3 adParams\cf0 );\
+							\cf3 adview\cf0 .setVisibility(View.\cf3 VISIBLE\cf0 );\
+							\cf3 bannerad\cf0  = 1;\
+							\cf2 break\cf0 ;\
+			\
+					\cf2 case\cf0  2: \cf3 layout\cf0 .addView(\cf3 angrybirdsbanner\cf0 , \cf3 adParams\cf0 );\
+							\cf3 angrybirdsbanner\cf0 .setVisibility(View.\cf3 VISIBLE\cf0 );\
+							\cf3 bannerad\cf0  = 2;\
+							\cf2 break\cf0 ;\
+	\
+					\cf2 case\cf0  3: \cf3 layout\cf0 .addView(\cf3 clashofclansbanner\cf0 , \cf3 adParams\cf0 ); \cf4 // OK\cf0 \
+							\cf3 clashofclansbanner\cf0 .setVisibility(View.\cf3 VISIBLE\cf0 );\
+							\cf3 bannerad\cf0  = 3;\
+							\cf2 break\cf0 ;\
+	\
+					\cf2 case\cf0  4:	\cf3 layout\cf0 .addView(\cf3 swcommanderbanner\cf0 , \cf3 adParams\cf0 );\
+							\cf3 swcommanderbanner\cf0 .setVisibility(View.\cf3 VISIBLE\cf0 );\
+							\cf3 bannerad\cf0  = 4;\
+							\cf2 break\cf0 ;\
+	\
+					\cf2 case\cf0  5: \cf3 layout\cf0 .addView(\cf3 okaybanner\cf0 , \cf3 adParams\cf0 );\
+							\cf3 okaybanner\cf0 .setVisibility(View.\cf3 VISIBLE\cf0 );\
+							\cf3 bannerad\cf0  = 5;\
+							\cf2 break\cf0 ;\
+\
+					\cf2 case\cf0  6: \cf3 layout\cf0 .addView(\cf3 problems99banner\cf0 , \cf3 adParams\cf0 );\
+							\cf3 problems99banner\cf0 .setVisibility(View.\cf3 VISIBLE\cf0 );\
+							\cf3 bannerad\cf0  = 6;\
+							\cf2 break\cf0 ;\
+							\
+					\cf2 case\cf0  7:	\cf3 layout\cf0 .addView(\cf3 ballkingbanner\cf0 , \cf3 adParams\cf0 );\
+							\cf3 ballkingbanner\cf0 .setVisibility(View.\cf3 VISIBLE\cf0 );\
+							\cf3 bannerad\cf0  = 7;\
+							\cf2 break\cf0 ;\
+			\
+					\cf2 case\cf0  8: \cf3 layout\cf0 .addView(\cf3 onemorelinebanner\cf0 , \cf3 adParams\cf0 );\
+							\cf3 onemorelinebanner\cf0 .setVisibility(View.\cf3 VISIBLE\cf0 );\
+							\cf3 bannerad\cf0  = 8;\
+							\cf2 break\cf0 ;\
+						\
+					\cf2 case\cf0  9: \cf3 layout\cf0 .addView(\cf3 haydaybanner\cf0 , \cf3 adParams\cf0 );\
+							\cf3 haydaybanner\cf0 .setVisibility(View.\cf3 VISIBLE\cf0 );\
+							\cf3 bannerad\cf0  = 9;\
+							\cf2 break\cf0 ;\
+					\}\
+\
+\
+\cf2 switch\cf0 (1)\{\
+							\
+					\cf2 case\cf0  1:	\cf3 mInterstitialAd\cf0 .loadAd(\cf3 adrequest\cf0 );\
+							\cf3 interstitialad\cf0  = 1;\
+							\cf2 break\cf0 ;\
+			\
+					\cf2 case\cf0  2: \cf3 angrybirdsinterstitial\cf0 .loadAd(\cf3 adrequest\cf0 );\
+							\cf3 interstitialad\cf0  = 2;\
+							\cf2 break\cf0 ;\
+			\
+					\cf2 case\cf0  3: \cf3 clashofclansinterstitial\cf0 .loadAd(\cf3 adrequest\cf0 );\
+							\cf3 interstitialad\cf0  = 3;\
+							\cf2 break\cf0 ;\
+			\
+					\cf2 case\cf0  4:	\cf3 swcommanderinterstitial\cf0 .loadAd(\cf3 adrequest\cf0 );\
+							\cf3 interstitialad\cf0  = 4;\
+							\cf2 break\cf0 ;\
+			\
+					\cf2 case\cf0  5: \cf3 okayinterstitial\cf0 .loadAd(\cf3 adrequest\cf0 );\
+							\cf3 interstitialad\cf0  = 5;\
+							\cf2 break\cf0 ;\
+			\
+					\cf2 case\cf0  6: \cf3 problems99interstitial\cf0 .loadAd(\cf3 adrequest\cf0 );\
+							\cf3 interstitialad\cf0  = 6;\
+							\cf2 break\cf0 ;\
+							\
+					\cf2 case\cf0  7:	\cf3 ballkinginterstitial\cf0 .loadAd(\cf3 adrequest\cf0 );\
+							\cf3 interstitialad\cf0  = 7;\
+							\cf2 break\cf0 ;\
+			\
+					\cf2 case\cf0  8: \cf3 onemorelineinterstitial\cf0 .loadAd(\cf3 adrequest\cf0 );\
+							\cf3 interstitialad\cf0  = 8;\
+							\cf2 break\cf0 ;\
+						\
+					\cf2 case\cf0  9: \cf3 haydayinterstitial\cf0 .loadAd(\cf3 adrequest\cf0 );\
+							\cf3 interstitialad\cf0  = 9;\
+							\cf2 break\cf0 ;\
+				\}\
+\
+\
+\pard\pardeftab720
+\cf0 \
+}
